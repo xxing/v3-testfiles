@@ -64,16 +64,6 @@
                                 "value": "root"
                             }
                         ],
-                        "resources": {
-                            "limits": {
-                                "cpu": "120m",
-                                "memory": "256Mi"
-                            },
-                            "requests": {
-                                "cpu": "60m",
-                                "memory": "256Mi"
-                            }
-                        },
                         "volumeMounts": [
                             {
                                 "name": "dataem",
