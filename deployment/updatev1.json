@@ -55,16 +55,6 @@
                                 "protocol": "TCP"
                             }
                         ],
-                        "resources": {
-                            "limits": {
-                                "cpu": "120m",
-                                "memory": "256Mi"
-                            },
-                            "requests": {
-                                "cpu": "60m",
-                                "memory": "256Mi"
-                            }
-                        },
                         "env": [
                             {
                                 "name": "MYSQL_USER",
