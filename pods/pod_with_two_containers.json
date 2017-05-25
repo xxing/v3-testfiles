@@ -19,11 +19,6 @@
             "protocol": "TCP"
           }
         ],
-        "resources": {
-          "limits": {
-            "memory": "256Mi"
-          }
-        },
         "volumeMounts": [
           {
             "name":"tmp",
@@ -47,11 +42,6 @@
             "protocol": "TCP"
           }
         ],
-        "resources": {
-          "limits": {
-            "memory": "256Mi"
-          }
-        },
         "volumeMounts": [
           {
             "name":"tmp",
